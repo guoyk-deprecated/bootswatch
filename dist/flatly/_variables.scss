@@ -113,11 +113,23 @@ $close-color:                       $white !default;
 $close-text-shadow:                 none !default;
 
 // Paddings
+$spacer: .8rem !default;
+
+$paragraph-margin-bottom: 0.8rem !default;
+
+$display1-size: 5.5rem !default;
+$display2-size: 5rem !default;
+$display3-size: 4rem !default;
+$display4-size: 3rem !default;
+
+$list-inline-padding: .4rem !default;
 
 $table-cell-padding: .5rem !default;
 
 $input-btn-padding-y: .3rem !default;
 $input-btn-padding-x: .5rem !default;
+
+$input-btn-focus-width:  .2rem !default;
 
 $input-btn-padding-y-sm: .2rem !default;
 $input-btn-padding-x-sm: .4rem !default;
@@ -125,15 +137,30 @@ $input-btn-padding-x-sm: .4rem !default;
 $input-btn-padding-y-lg: .4rem !default;
 $input-btn-padding-x-lg: .8rem !default;
 
-$pagination-padding-y-lg: .6rem !default;
+$pagination-padding-y-lg: .5rem !default;
 
-$card-spacer-y: .6rem !default;
-$card-spacer-x: 1.1rem !default;
+$label-margin-bottom: .4rem !default;
+
+$card-spacer-y: .4rem !default;
+$card-spacer-x: .8rem !default;
 
 $alert-padding-y: .6rem !default;
-$alert-padding-x: 1.1rem !default;
+$alert-padding-x: 1rem !default;
 
-$list-group-item-padding-y: .6rem !default;
-$list-group-item-padding-x: 1.1rem !default;
+$list-group-item-padding-y: .4rem !default;
+$list-group-item-padding-x: .8rem !default;
 
-$form-group-margin-bottom: .75rem !default;
+$form-group-margin-bottom: .6rem !default;
+
+$form-text-margin-top:                  .20rem !default;
+$form-check-input-gutter:               1rem !default;
+$form-check-input-margin-y:             .2rem !default;
+$form-check-input-margin-x:             .2rem !default;
+$form-check-inline-margin-x:            .6rem !default;
+$form-check-inline-input-margin-x:      .2rem !default;
+$form-grid-gutter-width:                8px !default;
+$form-group-margin-bottom:              .8rem !default;
+
+$custom-control-gutter:                 .4rem !default;
+$custom-control-spacer-x:               .8rem !default;
+$custom-control-indicator-size:         .8rem !default;
